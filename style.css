@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:ital@1&family=Rubik&display=swap");
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/*  tipografia genera l*/
+.font-monse {
+  font-family: "Montserrat", cursive;
+}
+
+.font-rale {
+  font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+  font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+/*paleta de colores */
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  background: #003859;
+}
+
+.color-second {
+  color: #c44800;
+}
+
+.color-second-bg {
+  background: #c44800;
+}
+
+.color-yellow {
+  color: #FFD289;
+}
+
+.color-yellow-bg {
+  background: #FFD289;
+}
+
+/*mejores ventas*/
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+  font-size: 35px;
+  color: #003859;
+  margin-left: -4rem;
+  padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #003859;
+  margin-right: -4rem;
+  padding: 0 1rem;
+}
+
+/*mejoras a los precios*/
+#special-price .grid .grid-item {
+  margin-right: 1.2rem;
+  margin-top: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+
+
+
+.arrastre{
+  max-width: 500px;
+  width: 100%;
+  background: #c44800;
+  margin:20px auto;
+  padding: 30px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+}
+.arrastre .titulo{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #181714;
+  text-transform: uppercase;
+  text-align: center;
+}
+.arrastre .form .campo{
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.arrastre .form .campo label{
+  font-size: 24px;
+  font-weight: 700;
+  width: 200px;
+  color: #181714;
+  margin-right: 10px;
+  font-size: 14px;
+}
+.arrastre .form .campo .input{
+  width: 100%;
+  outline:  none;
+  border: 1px solid #111111;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+.arrastre .form .campo .area{
+  width: 100%;
+  height: 125px;
+  outline:  none;
+  border: 1px solid #111111;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+.arrastre .form .campo .seleccion{
+  position: relative;
+  width: 100%;
+  height: 40px;
+
+}
+.arrastre .form .campo .seleccion select{
+  -webkit-appearance: none;
+  appearance: none;
+  border: 1px solid #181714;
+  width: 100%;
+  height: 100%;
+  padding: 8px 10px;
+  border-radius: 3px;
+  outline: none;
+}
+.arrastre .form .campo p{
+  font-size: 15px;
+  color: black;
+}
+.arrastre .form .campo .acepta{
+  width: 15px;
+  height: 15px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+.arrastre .form .campo .boton{
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 15x;
+  border: 0;
+  background: black;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.arrastre .form .campo .boton:hover{
+  background: #1e1e24 ;
+}
